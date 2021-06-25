@@ -1,0 +1,17 @@
+{
+     "presets": [
+          ["@babel/preset-env", {
+               "targets": {
+                    "node": "current"
+               }
+          }]
+     ],
+     "plugins": [
+          "@babel/plugin-proposal-function-bind",
+          [
+               "@babel/plugin-proposal-decorators", { "legacy": true }
+          ],
+          "transform-es2015-modules-commonjs"
+     ],
+     "sourceMaps": "inline"
+}

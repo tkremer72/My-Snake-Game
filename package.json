@@ -1,0 +1,54 @@
+{
+  "name": "snake-game",
+  "version": "1.0.0",
+  "description": "JavaScript Snake Game.  A Game Based On The Nokia 3301 Snake Game.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify -t [ babelify ] ./src/assets/javascript/snake.js -o ./dist/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkremer72/My-Snake-Game.git"
+  },
+  "keywords": [
+    "Babel",
+    "Babelify",
+    "Bootstrap",
+    "Browserify",
+    "ESLint",
+    "Flexbox",
+    "Grid",
+    "HTML",
+    "JavaScript",
+    "jQuery",
+    "Node",
+    "JS",
+    "NPM",
+    "Snake",
+    "Snake",
+    "Game",
+    "DOM",
+    "DOM",
+    "Manipulation"
+  ],
+  "author": "Thomas E. Kremer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tkremer72/My-Snake-Game/issues"
+  },
+  "homepage": "https://github.com/tkremer72/My-Snake-Game#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/plugin-proposal-decorators": "^7.14.5",
+    "@babel/plugin-proposal-function-bind": "^7.14.5",
+    "@babel/preset-env": "^7.14.7",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babelify": "^10.0.0",
+    "eslint": "^7.29.0"
+  },
+  "dependencies": {
+    "browserify": "^17.0.0"
+  }
+}
