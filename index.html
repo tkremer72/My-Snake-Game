@@ -5,7 +5,7 @@
      <meta charset="UTF-8">
      <!-- Describe the project using keywords-->
      <meta name="author" content="Thomas E. Kremer">
-     <meta name="description" content="Simple JavaScript Snake Game.  Based On The Nokia 3301 Snake Game.">
+     <meta name="description" content="Simple JavaScript Snake Game.  Based On The Nokia 3310 Snake Game.">
      <meta name="keywords"
           content="Babel, Babelify,  Bootstrap, Browserify, CSS, DOM, DOM Manipulation, ESLint, Flexbox, HTML, JavaScript, jQuery">
      <meta name="JavaScript. Manipulating The DOM.">
@@ -22,16 +22,14 @@
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-     <!--Bring in my external style sheet and javascript file-->
-
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Snake Game</title>
 
      <!-- Bring in my styles and javascript files -->
      <link rel="stylesheet" href="/src/assets/css/snake.css">
-     <script src="src/assets/javascript/snake.js" defer></script>
-
+<!--      <script src="src/assets/javascript/snake.js" defer></script>
+ -->
 </head>
 
 <body>
@@ -86,9 +84,12 @@
                                    you
                                    on purpose.
                               </p>
+
                          </div>
                          <div class="modal-footer">
-                              &copy; WebTek Inc. Thomas E. Kremer
+                              <span class="footer-span">
+                                   &copy; WebTek Inc. Thomas E. Kremer
+                              </span>
                               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                          </div>
                     </div>
@@ -144,7 +145,6 @@
           </div>
           </div>
           <!-- Create the hamburger menu -->
-          <!-- <div class="menu" id="toggle-menu" onclick="toggleMenu()"> -->
           <div class="menu" id="toggle-menu">
                <div class="menu-line"></div>
                <div class="menu-line"></div>
@@ -154,6 +154,112 @@
      </nav>
 
      <div class="main-content-fluid">
+          <div class="score">Score: <span>0</span></div>
+
+          <div class="boardGrid">
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+          </div>          
+          <button class="start">Start/Restart</button>
 
      </div>
 

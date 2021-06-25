@@ -92,15 +92,44 @@
 }
 .main-content-fluid {
      width: 100%;
+     text-align: center;
      /* margin-bottom: 50px; */
      /* padding: 20px; */
-     /* display: flex; */
-     /* flex-direction: column; */
+     display: flex;
+     flex-direction: column;
      /* justify-content: space-between; */
-     /* align-items: center; */
+     align-items: center;
      /* text-align: justify; */
 }
-
+.boardGrid {
+  margin-top: 15px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+}
+.boardGrid div {
+  width: 20px;
+  height: 20px;
+}
+.snake {
+  background-color: darkslateblue;
+}
+.apple {
+  background-color: red;
+}
+.score {
+  margin-top: 15px;
+  font-size: 25px;
+}
+button {
+  margin-top: 15px;
+  font-size: 18px;
+  padding: 7px 15px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
 /* Hide the menu on larger screens */
 .menu {
      display: none;
@@ -117,12 +146,23 @@
      background-color: #92a4fb;
      color: white !important;
      text-align: center;
-     font-size: 20px;
+     font-size: 25px;
+   }
+   .modal-body {
+     font-family: Poppins;
+     font-size: 17px;
+
    }
    .modal-footer {
-     background-color: #f9f9f9;
+     background-color: #F9F9F9;
+     font-size: 20px;
+     text-align: left;
+     display: flex;
+     justify-content: space-around;
    }
-   
+   .footer-span {
+     margin-top: 15px;
+   }
    /* Media query for smaller devices, hamburger menu */
    @media all and (max-width: 480px) {
      /* Center the main content, justify the text on small screens */
